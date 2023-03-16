@@ -1,0 +1,15 @@
+[package]
+name = "libfirm-sys"
+version = "0.2.0"
+edition = "2021"
+description = "Rust bindings for libfirm"
+repository = "https://github.com/chenhengqi/libfirm-sys"
+homepage = "https://github.com/chenhengqi/libfirm-sys"
+keywords = ["libfirm"]
+authors = ["Hengqi Chen <hengqi.chen@gmail.com>"]
+license = "LGPL-2.1"
+build = "build.rs"
+links = "libfirm"
+
+[build-dependencies]
+bindgen = "0.64.0"

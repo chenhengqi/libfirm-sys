@@ -1,0 +1,4 @@
+[submodule "libfirm"]
+	path = libfirm
+	url = https://github.com/chenhengqi/libfirm.git
+	branch = for-rust
